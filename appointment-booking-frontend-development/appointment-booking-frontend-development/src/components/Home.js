@@ -5,7 +5,8 @@ import classes from '../styles/Home.module.css';
 const Home = () => (
   <div className={classes.Home}>
     <div className="d-flex justify-content-center flex-column align-items-center h-100">
-      <h1 style={{ color: 'Black' }}>Appointment Booking</h1>
+      <h1 style={{ color: 'Black' }}>Medical Appointment</h1>
+      <h1 style={{ color: 'Black' }}>Booking System</h1>
       <div className="d-flex mt-3">
         <select className={`${classes.Select} ${classes.Button} mr-4`}>
           <option> Boston </option>
