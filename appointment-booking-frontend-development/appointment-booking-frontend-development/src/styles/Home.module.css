@@ -3,30 +3,22 @@
   background-repeat: no-repeat;
   background-size: cover;
   overflow: hidden;
-  background-image: url('https://previews.customer.envatousercontent.com/files/161385650/hospital_590.jpg');
+  background-image: url('https://unsplash.com/photos/nMyM7fxpokE/download?ixid=MnwxMjA3fDB8MXxhbGx8fHx8fHx8fHwxNjUwMTIxMjQ1&force=true');
   height: 100vh;
   color: white;
   margin-top: -100px;
 }
 
-.Overlay {
-  background: rgba(150, 191, 1, 0.7);
-  overflow: hidden;
-  height: 100%;
-  z-index: 2;
-}
-
 .Button {
   background-color: white;
-  padding: 10px;
-  color: rgba(150, 191, 1);
-  border-radius: 30px;
+  padding: 15px;
+  color: rgba(39, 121, 245, 0.8);
+  border-radius: 15px;
 }
 
 .Select {
-  padding: 10px;
+  padding: 15px;
   outline: none;
-  border: 1px solid white;
   color: white;
-  background-color: rgba(150, 191, 1);
+  background-color: rgba(39, 121, 245, 0.8);
 }
