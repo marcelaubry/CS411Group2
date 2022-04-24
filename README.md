@@ -1,3 +1,5 @@
+<!-- CS411 GROUP 2 PROJECT -->
+
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
