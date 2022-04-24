@@ -22,12 +22,12 @@
   padding: 10px;
   margin: 50px;
   border-radius: 20px;
-  background-color: rgba(150, 191, 1);
+  background-color: rgba(39, 121, 245, 0.8);
 }
 
 .btn:hover {
   text-decoration: none;
-  background-color: rgba(150, 191, 1, 0.7);
+  background-color: rgba(39, 121, 245, 0.8);
   color: black;
 }
 
