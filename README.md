@@ -24,4 +24,4 @@ Now go to [localhost:3000](http://localhost:3000) in your browser.
 
 ## Acknowledgments
 
-- [Murat Korkmaz](https://www.behance.net/gallery/26425031/Vespa-Responsive-Redesign) for design
+- ABC Hospital: https://github.com/alishabab/appointment-booking-frontend
