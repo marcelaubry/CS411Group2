@@ -1,8 +1,9 @@
+import java.applet.Applet;
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Date;
 
-public class MyCalendar {
+public class MyCalendar extends Applet{
   // instance variables - replace the example below with your own
   private String name;
   //SimpleDateFormat form;// =new SimpleDateFormat("dd/MM/yy HH:mm:ss");
@@ -44,11 +45,10 @@ public class MyCalendar {
   
   /**
    * @param name name of the person who wants to ask appointment.
-   * @param place the place where to meet.
    * @param date appointment date.
    * @return true if a slot is booked to particular person
    */
-  public boolean bookAppointment(String name, String date, String place) {
+  public boolean bookAppointment(String name, String date) {
     int flag = 0;
     Date date1 = new Date();
     SimpleDateFormat form = new SimpleDateFormat("dd/MM/yy HH:mm:ss");

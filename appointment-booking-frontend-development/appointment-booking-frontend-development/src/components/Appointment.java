@@ -1,7 +1,7 @@
+import java.applet.Applet;
 import java.text.SimpleDateFormat;
 import java.util.Date;
- */
-public class Appointment {
+public class Appointment extends Applet{
   // instance variables - replace the example below with your own
   private int duration;
   private SimpleDateFormat form = new SimpleDateFormat("dd/MM/yy HH:mm:ss");
