@@ -7,7 +7,7 @@ import javafx.scene.text.Font;
 import javafx.scene.text.FontWeight;
 public class Register {
 
-    public Register(){
+    public Register() {
         GridPane gridPane = createRegistrationFormPane();
         addUIControls(gridPane);
     }
@@ -15,13 +15,13 @@ public class Register {
     private TextField emailField;
     private PasswordField passwordField;
 
-    public String getName(){
+    public String getName() {
         return nameField.getText();
     }
-    public String getEmail(){
+    public String getEmail() {
         return emailField.getText();
     }
-    public String getPass(){
+    public String getPass() {
         return passwordField.getText();
     }
     public GridPane createRegistrationFormPane() {
@@ -63,7 +63,7 @@ public class Register {
         GridPane.setMargin(headerLabel, new Insets(20, 0,20,0));
 
         // Add Name Label
-        Label nameLabel = new Label("Full Name : ");
+        Label nameLabel = new Label("Full Name: ");
         gridPane.add(nameLabel, 0,1);
 
         // Add Name Text Field
@@ -71,9 +71,8 @@ public class Register {
         nameField.setPrefHeight(40);
         gridPane.add(nameField, 1,1);
 
-
         // Add Email Label
-        Label emailLabel = new Label("Email ID : ");
+        Label emailLabel = new Label("Email ID: ");
         gridPane.add(emailLabel, 0, 2);
 
         // Add Email Text Field
@@ -82,7 +81,7 @@ public class Register {
         gridPane.add(emailField, 1, 2);
 
         // Add Password Label
-        Label passwordLabel = new Label("Password : ");
+        Label passwordLabel = new Label("Password: ");
         gridPane.add(passwordLabel, 0, 3);
 
         // Add Password Field
