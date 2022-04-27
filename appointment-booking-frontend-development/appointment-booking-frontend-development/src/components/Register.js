@@ -109,6 +109,9 @@ const Register = () => {
   if (successful) {
     return <Redirect to="/doctors" />;
   }
+  // const registerPage = () => {
+  // invoke.getEmail();
+  // };
   return (
     <div className="col-md-12">
       <div className="card card-container">
