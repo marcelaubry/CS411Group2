@@ -8,8 +8,6 @@ import java.io.*;
 
 public class Registration extends Application {
 
-
-
     @Override
     public void start(Stage stage) {
         try{
